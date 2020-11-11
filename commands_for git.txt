@@ -21,7 +21,7 @@ step-4 configuring and commiting teh changes to the local repo
 ===============================================
 git config --global  user.email "your email"
 git config --global user.name "your name"
-this step can be done only for the first time
+the above two commands  can be done only for the first time
 ----------------------------------------------------
 git commit -m "message"
 here the message is mandatory or else u get a prompt to type a message
