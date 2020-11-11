@@ -1,0 +1,33 @@
+step-1 initializing
+===============================================
+git init 
+git remote add origin <link>
+git pull origin master
+------------  or  -----------------------------
+git clone <link>
+===============================================
+step -2 checking status
+===============================================
+git status
+if any file is not addedt to the indeex 
+it will show in red color if green no need to add
+after adding check the status again if the files are added to the index
+==========================================================================
+step-3 Adding to index
+===============================================
+git add <name of the file>
+===============================================
+step-4 configuring and commiting teh changes to the local repo
+===============================================
+git config --global  user.email "your email"
+git config --global user.name "your name"
+this step can be done only for the first time
+----------------------------------------------------
+git commit -m "message"
+here the message is mandatory or else u get a prompt to type a message
+==========================================================================
+step-5 pushing teh changes to the remote repo
+=======================================================================
+git push -u origin master
+=======================================================================
+
